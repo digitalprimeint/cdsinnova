@@ -136,8 +136,8 @@
             $(".btn").click(function (e) {
                 e.preventDefault();
                 
-                var searchText = $(this).text().toLowerCase();
-                searchByText(searchText);
+                var searchText = $(this).text();
+                searchByFirstLetter(searchText);
             });
 
         });
@@ -156,13 +156,48 @@
                 var result = select("*")
                                 .from(data.miembros)
                                 .where(function (item) {
-                                    return item.name.substring(0, 1).toLowerCase() === searchText;
+                                    searchText = searchText.toLowerCase();
+                                    if(item.name.toLowerCase().search(searchText) != -1
+                                        || item.description.toLowerCase().search(searchText) != -1
+                                        || item.phone.search(searchText) != -1
+                                        || item.email.toLowerCase().search(searchText) != -1
+                                        || item.web.toLowerCase().search(searchText) != -1
+                                        || item.address.toLowerCase().search(searchText) != -1) {
+                                        return true;
+                                    }
+
+                                    return false;
                                 })
                                 .return();
 
-                if(result.length > 0) {
-                    data.miembros = result;
-                }
+                data.miembros = result;
+            }
+
+            view.setData("miembros", data);
+
+            view.components.handler.sleep(100);
+            $("#template-perfil").addClass("row footer-division");
+        }
+
+        function searchByFirstLetter(searchText) {
+            var data = view.getData("miembros");
+
+            if(globalData == "") {
+                globalData = JSON.stringify(data);
+            }
+            else {
+                data = JSON.parse(globalData);
+            }
+
+            if(searchText !== "Todos") {
+                var result = select("*")
+                                .from(data.miembros)
+                                .where(function (item) {
+                                    return item.name.substring(0, 1).toLowerCase() === searchText.toLowerCase();
+                                })
+                                .return();
+
+                data.miembros = result;
             }
 
             view.setData("miembros", data);
