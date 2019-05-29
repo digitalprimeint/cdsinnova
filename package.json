@@ -1,0 +1,22 @@
+{
+  "name": "cdsinnova",
+  "version": "1.0.0",
+  "description": "directorio innova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://digitalprimeint:P7pollito07@github.com/digitalprimeint/cdsinnova.git"
+  },
+  "author": "Marco A. Castillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalprimeint/cdsinnova/issues"
+  },
+  "homepage": "https://github.com/digitalprimeint/cdsinnova#readme",
+  "dependencies": {
+    "@dellasera/plugdo-server": "^1.0.15"
+  }
+}

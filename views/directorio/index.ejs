@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Directorio de Miembros</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="//cdn.plugdo.com/js/plugdo-dependency.min.js"></script>
+    <script src="//cdn.plugdo.com/js/plugdoeui.latest.min.js"></script>
+    <style>
+    
+        .container {
+            margin-top: 25px;
+        }
+
+        .bottom-marging {
+            margin-bottom: 0 !important;
+        }
+
+        .b-line {
+            border-bottom: 3px solid #2E5B9E;
+        }
+
+        .divisor {
+            margin: 5px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #000;
+            color: white;
+            text-align: center;
+        }
+
+        .btn {
+            border-radius: 0;
+        }
+
+        .input-sm {
+            border: 0;
+            padding: .21rem .4rem;
+            background-color: #148c9f;
+            color: #FFF !important;
+            border-radius: 0;
+            margin: 0;
+            min-width: 320px;
+        }
+
+        ::placeholder { 
+            color: #FFF !important;
+            opacity: 1;
+        }
+
+        :-ms-input-placeholder {
+             color: #FFF !important; 
+        }
+
+        ::-ms-input-placeholder {
+            color: #FFF !important;
+        }
+
+        input:focus {
+            color: #FFF !important;
+            background-color: #148c9f !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="b-line">Directorio</h1>
+            </div>
+        </div>
+        <div class="row divisor"></div>
+        <div class="row container">
+            <nav> 
+                <ul class="pagination"> 
+                    <li><a href="#" class="btn btn-info btn-sm">Todos</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">A</a></li> 
+                    <li><a href="#" class="btn btn-info btn-sm">B</a></li> 
+                    <li><a href="#" class="btn btn-info btn-sm">C</a></li> 
+                    <li><a href="#" class="btn btn-info btn-sm">D</a></li> 
+                    <li><a href="#" class="btn btn-info btn-sm">E</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">F</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">G</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">H</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">I</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">J</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">K</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">L</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">M</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">N</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">O</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">P</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">Q</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">R</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">S</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">T</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">U</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">V</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">W</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">X</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">Y</a></li>
+                    <li><a href="#" class="btn btn-info btn-sm">Z</a></li>
+                    <li>
+                        <div class="input-group">
+                            <input id="searchText" type="text" class="form-control input-sm" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon3">
+                        </div>
+                    </li>
+                </ul> 
+            </nav>
+        </div>
+        <plugdo-miembro name="miembros" src="/component/miembro.html"></plugdo-miembro>
+
+    </div>
+
+    <script src="/js/app-directorio.js"></script>
+    <script>
+        let { template, global, view, select } = plugdo;
+        var globalData = "";
+        appDir.init();
+
+        $(document).ready(function () {
+
+            $('#searchText').on('input',function(e){
+                var searchText = $(this).val();
+                searchByText(searchText);
+            });
+
+            $(".btn").click(function (e) {
+                e.preventDefault();
+                
+                var searchText = $(this).text().toLowerCase();
+                searchByText(searchText);
+            });
+
+        });
+
+        function searchByText(searchText) {
+            var data = view.getData("miembros");
+
+            if(globalData == "") {
+                globalData = JSON.stringify(data);
+            }
+            else {
+                data = JSON.parse(globalData);
+            }
+
+            if(searchText !== "Todos") {
+                var result = select("*")
+                                .from(data.miembros)
+                                .where(function (item) {
+                                    return item.name.substring(0, 1).toLowerCase() === searchText;
+                                })
+                                .return();
+
+                if(result.length > 0) {
+                    data.miembros = result;
+                }
+            }
+
+            view.setData("miembros", data);
+
+            view.components.handler.sleep(100);
+            $("#template-perfil").addClass("row footer-division");
+        }
+    </script>
+
+</body>
+</html>
