@@ -691,6 +691,7 @@ function DirectorioCentroInnovacion () {
         view.setData("miembros", data);
 
         view.components.handler.sleep(100);
+        $("#miembros").addClass("col-12");
         $("#template-perfil").addClass("row footer-division");
     }
 
@@ -718,6 +719,7 @@ function DirectorioCentroInnovacion () {
         view.setData("miembros", data);
 
         view.components.handler.sleep(100);
+        $("#miembros").addClass("col-12 container");
         $("#template-perfil").addClass("row footer-division");
     }
 }
