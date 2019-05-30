@@ -9,7 +9,7 @@
         <template-perfil class="[json:class]" model="miembros"></template-perfil>
     </template>
     <template-perfil>
-        <div class="col-sm-3 miembro card-custom">
+        <div class="col-sm-3 col-md-4 miembro card-custom">
             <h5>[json:name]</h5>
             <span class="miembro-description">[json:description]</span> <br/>
             <span class="miembro-tipo"><strong>T:</strong></span> <span class="miembro-detalles">[json:phone]</span> <br/>
@@ -20,6 +20,7 @@
     </template-perfil>
     <scripts>
         $(document).ready(function () {
+            $("#miembros").addClass("col-12");
             $("#template-perfil").addClass("row footer-division");
         });
     </scripts>
@@ -30,10 +31,6 @@
 
         .miembro span.miembro-description {
             color: #2E5B9E;
-        }
-
-        #miembros {
-            display: flex;
         }
 
         .miembro span.miembro-tipo {
