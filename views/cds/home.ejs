@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%=title%></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta property="og:description" content="Directorio de Empresas del   Centro de Innovación de Ciudad del Saber.">
+  <meta property="og:image"
+    content="https://i2.wp.com/ciudaddelsaber.org/wp-content/uploads/2020/03/0E8A0151-Edit-e1545147717320.jpg?fit=1200%2C800&amp;ssl=1">
+  <meta property="og:image:width" content="1200">
+  <meta property="ogimage:height" content="800">
+  <script src="//cdn.plugdo.com/js/plugdo-dependency.min.js"></script>
+  <script src="//cdn.plugdo.com/release/2.7/plugdoeui.min.js"></script>
+  <script src="/app/app.js"></script>
+  <script src="/app/routing.js"></script>
+  <script src="/app/directory.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark " style=" background-color: #2E5B9E;">
+    <a class="navbar-brand" href="/">Centro de Innovación</a>
+    <button class="navbar-toggler mobile-header-bo " type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://ciudaddelsaber.org/ser-miembro/centro-de-innovacion/"
+            target="blank">Información <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://ciudaddelsaber.org" target="blank">Ciudad del Saber</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link cls-dir" href="/" tabindex="-1" aria-disabled="true" >Ver Directorio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="col-md-12" id="container">
+    </div>
+  </div>
+  <style>
+    .cls-dir{
+      background: #313030;
+      color: white;
+    }
+    .b-line-title {
+      border-bottom: 3px solid #2E5B9E;
+    }
+
+    .b-line-title-small {
+      border-bottom: 3px solid #2E5B9E;
+      display: none !important;
+    }
+
+    .b-line-search {
+      border-bottom: 3px solid #2E5B9E;
+    }
+
+    .divisor {
+      margin: 5px;
+    }
+
+    .btn {
+      border-radius: 0;
+    }
+
+    .input-sm {
+      border: 0;
+      padding: .21rem .4rem;
+      background-color: #148c9f;
+      color: #FFF !important;
+      border-radius: 0;
+      margin: 0 0 0 0;
+    }
+
+    plugdo-miembro {
+      display: none !important;
+    }
+
+    .mobile-header {
+      display: none !important;
+      background-color: #2E5B9E;
+      color: #FFF;
+      font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 1.5em;
+      font-weight: 500 !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+  
+      .mobile-header-bo {
+        display: none !important;
+      }
+      .mobile-header div {
+        height: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+        vertical-align: middle !important;
+        padding-top: 8px !important;
+      } 
+
+      .pagination-row {
+        display: none !important;
+      }
+
+      .b-line-title-small {
+        display: block !important;
+      }
+
+      .b-line-title-small h3 span {
+        font-size: 18px;
+      }
+
+      .b-line-title {
+        border-bottom: 0;
+        display: none !important;
+      }
+
+      .b-line-search {
+        margin-top: 10px !important;
+        border-bottom: 0;
+      }
+    }
+
+    .col-centered {
+      display: inline-block;
+      float: none;
+      text-align: left;
+      text-align: center;
+    }
+  </style>
+</body>
+
+</html>

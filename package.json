@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/digitalprimeint/cdsinnova#readme",
   "dependencies": {
-    "@dellasera/plugdo-server": "^1.0.15"
+    "@dellasera/plugdo-server": "^1.0.15",
+    "plugdo-node": "^1.0.4"
   }
 }

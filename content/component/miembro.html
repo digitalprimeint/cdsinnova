@@ -1,30 +1,33 @@
 <plugdo-miembro>
     <data>
         {
-            "class": "row",
-            "miembros": []
+        "class": "row",
+        "miembros": []
         }
     </data>
     <template>
-        <template-perfil class="[json:class]" model="miembros"></template-perfil>
+        <label for="" style="display:none">[json:class]</label>
+        <template-perfil class="row" model="miembros"></template-perfil>
     </template>
     <template-perfil>
         <div class="col-sm-3 col-md-4 miembro card-custom">
             <h5>[json:name]</h5>
-            <span class="miembro-description">[json:description]</span> <br/>
-            <span class="miembro-tipo"><strong>T:</strong></span> <span class="miembro-detalles">[json:phone]</span> <br/>
-            <span class="miembro-tipo"><strong>E:</strong></span> <span class="miembro-detalles">[json:email]</span> <br/>
-            <span class="miembro-tipo"><strong>W:</strong></span> <span class="miembro-detalles">[json:web]</span> <br/>
+            <span class="miembro-description">[json:description]</span> <br>
+            <span class="miembro-tipo"><strong>T:</strong></span> <span class="miembro-detalles">[json:phone]</span>
+            <br>
+            <span class="miembro-tipo"><strong>E:</strong></span> <span class="miembro-detalles">[json:email]</span>
+            <br>
+            <span class="miembro-tipo"><strong>W:</strong></span> <span class="miembro-detalles">[json:web]</span> <br>
             <span class="miembro-tipo"><strong>D:</strong></span> <span class="miembro-detalles">[json:address]</span>
         </div>
     </template-perfil>
-    <scripts>
+    <script>
         $(document).ready(function () {
             $("#miembros").addClass("col-12");
-            $("#template-perfil").addClass("row footer-division");
+            $("#template-perfil").addClass("row footer-division ");
         });
-    </scripts>
-    <styles>
+    </script>
+    <style>
         .footer-division {
             margin-bottom: 50px !important;
         }
@@ -35,8 +38,12 @@
 
         .miembro span.miembro-tipo {
             width: 100px !important;
+            word-break: break-all;
         }
-        
+        .miembro span.miembro-detalles {
+            word-break: break-all;
+        }
+
         .miembro span {
             margin-right: 10px;
         }
@@ -60,5 +67,5 @@
                 max-width: 97% !important;
             }
         }
-    </styles>
+    </style>
 </plugdo-miembro>
