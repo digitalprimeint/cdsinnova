@@ -10,14 +10,14 @@
         <template-perfil class="row" model="miembros"></template-perfil>
     </template>
     <template-perfil>
-        <div class="col-sm-3 col-md-4 miembro card-custom">
+        <div class="col-sm-6 col-md-6 miembro card-custom">
             <h5>[json:name]</h5>
             <span class="miembro-description">[json:description]</span> <br>
             <span class="miembro-tipo"><strong>T:</strong></span> <span class="miembro-detalles">[json:phone]</span>
             <br>
             <span class="miembro-tipo"><strong>E:</strong></span> <span class="miembro-detalles">[json:email]</span>
             <br>
-            <span class="miembro-tipo"><strong>W:</strong></span> <span class="miembro-detalles">[json:web]</span> <br>
+            <span class="miembro-tipo"><strong>W:</strong></span> <a class="miembro-detalles"  target="_blank" href="[json:web]"> Ir al sitio</a> <br>
             <span class="miembro-tipo"><strong>D:</strong></span> <span class="miembro-detalles">[json:address]</span>
         </div>
     </template-perfil>
@@ -26,6 +26,7 @@
             $("#miembros").addClass("col-12");
             $("#template-perfil").addClass("row footer-division ");
         });
+
     </script>
     <style>
         .footer-division {

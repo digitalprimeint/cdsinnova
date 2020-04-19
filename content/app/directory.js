@@ -17,8 +17,6 @@ function DirectorioCentroInnovacion() {
 
             appDir.addDataToPlugdoMiembroElement();
 
-
-
         });
     }
 
@@ -36,7 +34,7 @@ function DirectorioCentroInnovacion() {
             "description": "APP móvil de préstamos personales",
             "phone": "+507 216 9090",
             "email": "simon@adelantos.com.pa",
-            "web": "www.adelantos.com.pa",
+            "web": "https://www.adelantos.com.pa",
             "address": "Innova 109, Ofic. A2"
         },
         {
@@ -54,7 +52,7 @@ function DirectorioCentroInnovacion() {
                           de equipo`,
             "phone": "+507 306 3130",
             "email": "panama@aiesec.net",
-            "web": "www.aiesec.org.pa",
+            "web": "https://www.aiesec.org.pa",
             "address": "Innova 104, Ofic. 15 y 16"
         },
         {
@@ -63,7 +61,7 @@ function DirectorioCentroInnovacion() {
                         incorporar disciplinas contables y financieras.`,
             "phone": "+507 6671 1206",
             "email": "info@alephco.net",
-            "web": "www.alephco.net",
+            "web": "https://www.alephco.net",
             "address": "Innova 109"
         },
         {
@@ -72,7 +70,7 @@ function DirectorioCentroInnovacion() {
                           de medicamentos mediante un app`,
             "phone": "+507 6675 3077",
             "email": "hanz.ardon@apololab.com",
-            "web": "www.es-apololab.strikingly.com",
+            "web": "https://www.es-apololab.strikingly.com",
             "address": "Innova 109, No.11"
         },
 
@@ -83,7 +81,7 @@ function DirectorioCentroInnovacion() {
             totalmente diferente a la tradicional`,
             "phone": "+507 6920 4843",
             "email": "info@ayudinga.com",
-            "web": "www.ayudinga.com",
+            "web": "https://www.ayudinga.com",
             "address": "CdS - Casa Ayudinga, Edificio: 137-A"
         },
 
@@ -93,7 +91,7 @@ function DirectorioCentroInnovacion() {
              SEO y SEM`,
             "phone": "+507 388 4371",
             "email": "contacto@bluetideconsulting.com",
-            "web": "www.bluetideconsulting.com",
+            "web": "https://www.bluetideconsulting.com",
             "address": "CdS - Edificio 237, Piso 3, Local D"
         },
 
@@ -102,7 +100,7 @@ function DirectorioCentroInnovacion() {
             "description": `Asesoría Legal a Emprendedores`,
             "phone": "+507 6645 4443",
             "email": "info@ocmcorp.com",
-            "web": "www.ocmcorp.com",
+            "web": "https://www.ocmcorp.com",
             "address": "Innova 109, No. 1"
         },
         {
@@ -112,7 +110,7 @@ function DirectorioCentroInnovacion() {
                              de equipos`,
             "phone": "+507 6874 6364",
             "email": "bowmanpty507@gmail.com",
-            "web": "www.bowman507.com",
+            "web": "https://www.bowman507.com",
             "address": "CdS - Edificio 234"
         },
         {
@@ -130,7 +128,7 @@ function DirectorioCentroInnovacion() {
           Innovación y Telecomunicaciones`,
             "phone": "+507 317 3132",
             "email": "info@capatec.org.pa",
-            "web": "www.capatec.org.pa",
+            "web": "https://www.capatec.org.pa",
             "address": "Innova 104, Ofic. 27"
         },
         {
@@ -138,7 +136,7 @@ function DirectorioCentroInnovacion() {
             "description": `Diseño Industrial, Lettering y Muralismo`,
             "phone": "+507 6234 0686",
             "email": "camilaborreoa@gmail.com",
-            "web": "www.camitype.tumblr.com",
+            "web": "https://www.camitype.tumblr.com",
             "address": "Innova 104"
         },
         {
@@ -157,7 +155,7 @@ function DirectorioCentroInnovacion() {
             "description": `Smart Apps, Ecosistemas Web y Móviles`,
             "phone": "+507 395 4122",
             "email": "contact@darient.com",
-            "web": "www.darient.com",
+            "web": "https://www.darient.com",
             "address": "Innova 104, Ofic. 3B"
         },
 
@@ -167,7 +165,7 @@ function DirectorioCentroInnovacion() {
                             Robótica`,
             "phone": "+507 236 9129",
             "email": "acarrizo@edutek.com.pa",
-            "web": "www.edutek.com.pa",
+            "web": "https://www.edutek.com.pa",
             "address": "Innova 104, Ofic. 1"
         },
         {
@@ -176,7 +174,7 @@ function DirectorioCentroInnovacion() {
           Concientización`,
             "phone": "+507 6504 6789",
             "email": "hector@enfinity.io",
-            "web": "www.enfinity.com.pa",
+            "web": "https://www.enfinity.com.pa",
             "address": "Innova 109, No. 14"
         },
 
@@ -187,7 +185,7 @@ function DirectorioCentroInnovacion() {
           herramientas de fabricación digital y manual`,
             "phone": "+507 6783 3433",
             "email": "matthewhotsko@gmail.com",
-            "web": "www.ecostudio.ngo",
+            "web": "https://www.ecostudio.ngo",
             "address": "Galera 245"
         },
         {
@@ -196,7 +194,7 @@ function DirectorioCentroInnovacion() {
           diseño web, diseño gráfico y social marketing`,
             "phone": "+4477 1725 2945",
             "email": "info@brandinnpty.com",
-            "web": "www.brandinnpty.com",
+            "web": "https://www.brandinnpty.com",
             "address": "Innova 109, No. 3"
         },
         {
@@ -204,7 +202,7 @@ function DirectorioCentroInnovacion() {
             "description": `Herramientas tecnológicas de desarrollo deportivo.`,
             "phone": "+507 6998 3834",
             "email": "info@fitwave507.com",
-            "web": "www.fitwave507.com",
+            "web": "https://www.fitwave507.com",
             "address": "Innova 104"
         },
         {
@@ -213,7 +211,7 @@ function DirectorioCentroInnovacion() {
                             pastelería, catering, rodeados en un ambiente artístico creativo`,
             "phone": "+507 317 1122",
             "email": "panycanela@panycanela.com",
-            "web": "www.panycanelacafe.com",
+            "web": "https://www.panycanelacafe.com",
             "address": "Innova 104"
         },
 
@@ -222,7 +220,7 @@ function DirectorioCentroInnovacion() {
             "description": `Importación y venta de maquinaria industrial`,
             "phone": "+507 6826 3150",
             "email": "josefina@grupo-fractal.com",
-            "web": "www.grupo-fractal.com",
+            "web": "https://www.grupo-fractal.com",
             "address": "Innova 109"
         },
         {
@@ -231,7 +229,7 @@ function DirectorioCentroInnovacion() {
           Raices, mediante tecnología 3D interactiva`,
             "phone": "+507 6674 9863",
             "email": "info@hauzd.com",
-            "web": "www.hauzd.com",
+            "web": "https://www.hauzd.com",
             "address": "Edificio 235, CdS - Innova 109, No. 14"
         },
         {
@@ -240,7 +238,7 @@ function DirectorioCentroInnovacion() {
                             de Panamá`,
             "phone": "+507 306 3133",
             "email": "kturner@panacamara.org",
-            "web": "www.iccpanama.org",
+            "web": "https://www.iccpanama.org",
             "address": "Innova 104, Ofic. 14"
         },
         {
@@ -250,7 +248,7 @@ function DirectorioCentroInnovacion() {
           uniformes y ropa técnica outdoors`,
             "phone": "+507 6280 0643",
             "email": "contactenos@igrow-si.com",
-            "web": "www.igrow-si.com",
+            "web": "https://www.igrow-si.com",
             "address": "Innova 109, No 18"
         },
         {
@@ -259,7 +257,7 @@ function DirectorioCentroInnovacion() {
                             automatizar los procesos críticos de tu negocio`,
             "phone": "+507 6634 4634",
             "email": "jose.siso@itisla.com",
-            "web": "www.itisla.com",
+            "web": "https://www.itisla.com",
             "address": "Innova 109, No 16"
         },
         {
@@ -268,7 +266,7 @@ function DirectorioCentroInnovacion() {
                              diferentes sectores`,
             "phone": "+507 6398 1289",
             "email": "maria.escobar@issatec.com",
-            "web": "www.issatec.com",
+            "web": "https://www.issatec.com",
             "address": "Innova 109"
         },
         {
@@ -277,7 +275,7 @@ function DirectorioCentroInnovacion() {
           con la industria`,
             "phone": "+507 6134 4220",
             "email": "yunai@ivotalents.com",
-            "web": "www.ivotalents.com",
+            "web": "https://www.ivotalents.com",
             "address": "Innova 109, No. 9"
         },
         {
@@ -285,7 +283,7 @@ function DirectorioCentroInnovacion() {
             "description": `Laboratorio de ideas que opera como espacio propulsor, aglutinados de conocimientos y experiencias investigativas en I+D+I.`,
             "phone": "+507 6974 8251",
             "email": "mmurai@iiafec.com",
-            "web": "www.iiafec.com",
+            "web": "https://www.iiafec.com",
             "address": "Innova 109"
         },
         {
@@ -322,7 +320,7 @@ function DirectorioCentroInnovacion() {
           facial, cableado estructurado, servicios cloud entre otros`,
             "phone": "+507 6633 4676",
             "email": "reyes.aguirre@kingnova.com.pa",
-            "web": "www.kingnova.com.pa",
+            "web": "https://www.kingnova.com.pa",
             "address": "Innova 109"
         },
         {
@@ -331,7 +329,7 @@ function DirectorioCentroInnovacion() {
           competir desde la comodidad de su casa y ganar premios`,
             "phone": "+507 6406 3489",
             "email": "info@lapgl.com",
-            "web": "www.lapgl.com",
+            "web": "https://www.lapgl.com",
             "address": "Innova 104, Ofic. 3A"
         },
         {
@@ -340,7 +338,7 @@ function DirectorioCentroInnovacion() {
           ilustración textil`,
             "phone": "+507 6982 2513",
             "email": "laura.baker.puentes@gmail.com",
-            "web": "www.laurabakerstudio.com",
+            "web": "https://www.laurabakerstudio.com",
             "address": "Innova 109, No. 3"
         },
         {
@@ -348,7 +346,7 @@ function DirectorioCentroInnovacion() {
             "description": `Fotógrafo creativo, marketing y diseñador`,
             "phone": "+(507) 6100 9968",
             "email": "hi@leygh.com",
-            "web": "www.leygh.com",
+            "web": "https://www.leygh.com",
             "address": "Innova 109"
         },
         {
@@ -357,7 +355,7 @@ function DirectorioCentroInnovacion() {
                             mapping, realidad virtual e instalación interactiva`,
             "phone": "+507 6224 8403",
             "email": "libelulafractal@gmail.com",
-            "web": "www.libelulafractal.com",
+            "web": "https://www.libelulafractal.com",
             "address": "Innova 104, Ofic. 28"
         },
         {
@@ -366,7 +364,7 @@ function DirectorioCentroInnovacion() {
           culturales y familiares`,
             "phone": "+507 6670 6973",
             "email": "lunallenadetambores@gmail.com",
-            "web": "www.lunallenadetambores.com",
+            "web": "https://www.lunallenadetambores.com",
             "address": "El Lunario Galera No. 215"
         },
         {
@@ -376,7 +374,7 @@ function DirectorioCentroInnovacion() {
           medida`,
             "phone": "+507 306 3700 ext 3606",
             "email": "jmiur@micropossoft.com",
-            "web": "www.micropossoft.com",
+            "web": "https://www.micropossoft.com",
             "address": "Innova 109"
         },
         {
@@ -385,7 +383,7 @@ function DirectorioCentroInnovacion() {
                              Datos, Análisis Estratégicos y Presentación de Data`,
             "phone": "+507 6981 2266",
             "email": "josh@mediarank.info",
-            "web": "www.mediarank.info",
+            "web": "https://www.mediarank.info",
             "address": "Innova 109, No. 17"
         },
         {
@@ -394,7 +392,7 @@ function DirectorioCentroInnovacion() {
           Tecnología VR y Mapeo 3D`,
             "phone": "+507 6757 2143",
             "email": "info@multitoolstudios.com",
-            "web": "www.multitoolstudios.com",
+            "web": "https://www.multitoolstudios.com",
             "address": "Innova 104, Ofic. 5"
         },
         {
@@ -404,7 +402,7 @@ function DirectorioCentroInnovacion() {
           Secure`,
             "phone": "+507 6318 7739",
             "email": "j.vega@necsia.es",
-            "web": "www.necsia.com.pa",
+            "web": "https://www.necsia.com.pa",
             "address": "Innova 109, No. 2"
         },
         {
@@ -414,7 +412,7 @@ function DirectorioCentroInnovacion() {
            mundo`,
             "phone": "+507 6151 4004",
             "email": "daniel.billingslea@gmail.com",
-            "web": "www.oaoaweb.com",
+            "web": "https://www.oaoaweb.com",
             "address": "Innova 109"
         },
         {
@@ -424,7 +422,7 @@ function DirectorioCentroInnovacion() {
           tv, arquitectura, banca, tecnología y más)`,
             "phone": "+507 6674 0192",
             "email": "info@occidentanimation.com",
-            "web": "www.occidentanimation.com",
+            "web": "https://www.occidentanimation.com",
             "address": "Innova 105, Ofic. 4 y 11"
         },
         {
@@ -432,7 +430,7 @@ function DirectorioCentroInnovacion() {
             "description": `Consultorías y capacitaciones en temas de marketing y servicio al cliente. Comunicación de marca, eventos corporativos, materiales promocionales, diseño gráfico e impresión.`,
             "phone": " +507 6030-7210",
             "email": " rbravo@nortepublicidad.com",
-            "web": "www.nortepublicidad.com",
+            "web": "https://www.nortepublicidad.com",
             "address": "CdS - Edificio 234"
         },
         {
@@ -441,7 +439,7 @@ function DirectorioCentroInnovacion() {
           Oficina de Alto Comisionado`,
             "phone": "+507 306 3106 ext. 3577, 3181, 3578",
             "email": "crodriguez@ohchr.org",
-            "web": "www.ohchr.org",
+            "web": "https://www.ohchr.org",
             "address": "Innova 104, Ofic. 17"
         },
         {
@@ -451,7 +449,7 @@ function DirectorioCentroInnovacion() {
           traducción de documentos y talleres de intérpretes`,
             "phone": "+507 392 8819",
             "email": "info@panamainterpreters.com",
-            "web": "www.panamainterpreters.com",
+            "web": "https://www.panamainterpreters.com",
             "address": "Innova 104, Ofic. 19"
         },
         {
@@ -469,7 +467,7 @@ function DirectorioCentroInnovacion() {
           de sus proyectos, en una comunidad de más de 10 mil personas`,
             "phone": "+507 306 3106",
             "email": "empresarias@cdspanama.org",
-            "web": "www.canalempresarias.org",
+            "web": "https://www.canalempresarias.org",
             "address": "Innova 104"
         },
         {
@@ -478,7 +476,7 @@ function DirectorioCentroInnovacion() {
            start up`,
             "phone": "+507 306 3106",
             "email": "info@enterstartup.com",
-            "web": "www.enterstartup.com",
+            "web": "https://www.enterstartup.com",
             "address": "Innova 109"
         },
         {
@@ -487,7 +485,7 @@ function DirectorioCentroInnovacion() {
           emprendimientos innovadores`,
             "phone": "+507 306 3106",
             "email": "ccollazos@cdspanama.org",
-            "web": "www.startups.ciudaddelsaber.org",
+            "web": "https://www.startups.ciudaddelsaber.org",
             "address": "Innova 104"
         },
         {
@@ -496,7 +494,7 @@ function DirectorioCentroInnovacion() {
           Identidad Visual, Infografías, Ilustraciones y otros`,
             "phone": "+507 6490 9359",
             "email": "lsa@phoenixdesignaid.com",
-            "web": "www.phoenixdesignaid.com",
+            "web": "https://www.phoenixdesignaid.com",
             "address": "Innova 104, Ofic. 9"
         },
         {
@@ -507,7 +505,7 @@ function DirectorioCentroInnovacion() {
           presupuesto`,
             "phone": "+507 306-3700 ext 3595",
             "email": "info@plugdo.com",
-            "web": "www.plugdo.com",
+            "web": "https://www.plugdo.com",
             "address": "Innova 104, Ofic. 2A y 2B"
         },
         {
@@ -516,7 +514,7 @@ function DirectorioCentroInnovacion() {
           móvil, business intelligence, robotización, Devops, etc.`,
             "phone": "+507 6298 1546",
             "email": "daniel.osorio@pragma.com.co",
-            "web": "www.pagma.com.co",
+            "web": "https://www.pagma.com.co",
             "address": "Innova 104, Ofic. 22"
         },
         {
@@ -525,7 +523,7 @@ function DirectorioCentroInnovacion() {
           mediante capacitaciones, guines interpretativos y exhibiciones`,
             "phone": "+507 6564 4141",
             "email": "praxieducationalconsultants.ad@gmail.com",
-            "web": "www.praxis-edu.com",
+            "web": "https://www.praxis-edu.com",
             "address": "Innova 109"
         },
         {
@@ -535,7 +533,7 @@ function DirectorioCentroInnovacion() {
           extranjero`,
             "phone": "+507 6304 4330",
             "email": "chris@prom.com.pa",
-            "web": "www.prom.com.pa",
+            "web": "https://www.prom.com.pa",
             "address": "Innova 109, No. 12"
         },
         {
@@ -543,7 +541,7 @@ function DirectorioCentroInnovacion() {
             "description": `Servicios de asesorías profesionales en el ámbito de los negocios y levantamientos de capital`,
             "phone": " +507 6717 4844",
             "email": "rpinochet@pmpartnerschile.com",
-            "web": "www.pmpartnerschile.com",
+            "web": "https://www.pmpartnerschile.com",
             "address": " Innova 109"
         },
         {
@@ -552,7 +550,7 @@ function DirectorioCentroInnovacion() {
           en gestión de proyectos en Panamá`,
             "phone": "+507 306 3169",
             "email": "administracion@pmi-panama.org",
-            "web": "www.pmi-panama.org",
+            "web": "https://www.pmi-panama.org",
             "address": "Innova 104, Ofic. 21"
         },
         {
@@ -561,7 +559,7 @@ function DirectorioCentroInnovacion() {
           marca, eventos corporativos, stands y visual merchandising`,
             "phone": "+507 6675 9024",
             "email": "hola@rosacreativa.com",
-            "web": "www.rosacreativa.com",
+            "web": "https://www.rosacreativa.com",
             "address": "Innova 109, No. 7"
         },
         {
@@ -570,7 +568,7 @@ function DirectorioCentroInnovacion() {
           mediante talleres online y presenciales`,
             "phone": "+507 6220 8563",
             "email": "aminta@epayschool.com",
-            "web": "www.schoolmarketingdigital.com",
+            "web": "https://www.schoolmarketingdigital.com",
             "address": "Innova 109, No. 21"
         },
         {
@@ -580,7 +578,7 @@ function DirectorioCentroInnovacion() {
           digital`,
             "phone": "+507 6761 0796",
             "email": "vhernandez@smartcomcorp.com",
-            "web": "www.smartcomcorp.com",
+            "web": "https://www.smartcomcorp.com",
             "address": "Innova 104, Ofic. 24"
         },
         {
@@ -590,7 +588,7 @@ function DirectorioCentroInnovacion() {
           online, plan de manejo de crisis online`,
             "phone": "+507 306 3116",
             "email": "coach@socialmediaco5.com",
-            "web": "www.socialmediaco5.com",
+            "web": "https://www.socialmediaco5.com",
             "address": "Innova 104, Ofic. 10"
         },
         {
@@ -599,7 +597,7 @@ function DirectorioCentroInnovacion() {
           apoyamos a emprendedores en sus primeros pasos`,
             "phone": "+507 6805 0805",
             "email": "carlos@talentia.net",
-            "web": "www.talentia.net",
+            "web": "https://www.talentia.net",
             "address": "Innova 109"
         },
         {
@@ -609,7 +607,7 @@ function DirectorioCentroInnovacion() {
           seminarios`,
             "phone": "+507 6675 8972",
             "email": "yariela@talentotraining.com",
-            "web": "www.talentotraining.com",
+            "web": "https://www.talentotraining.com",
             "address": "Innova 109, No. 25"
         },
         {
@@ -617,7 +615,7 @@ function DirectorioCentroInnovacion() {
             "description": `Diseñadora de Joyas`,
             "phone": "",
             "email": "info@tarachial.com",
-            "web": "www.tarachial.com",
+            "web": "https://www.tarachial.com/",
             "address": "Innova 109, Ofic. 3"
         },
         {
@@ -636,7 +634,7 @@ function DirectorioCentroInnovacion() {
           social`,
             "phone": "+507 6283 4729",
             "email": "markel@thekeycomm.com",
-            "web": "www.thekeycommunications.com",
+            "web": "https://thekeycommunications.com/",
             "address": "Innova 109, No. 7"
         },
 
@@ -654,7 +652,7 @@ function DirectorioCentroInnovacion() {
           según tus necesidades de una manera segura y confiable`,
             "phone": "+507 6103 7811",
             "email": "info@tutorez.com",
-            "web": "www.tutorez.com",
+            "web": "https://tutorez.com/",
             "address": "Innova 109"
         },
 
