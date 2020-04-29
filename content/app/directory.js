@@ -158,7 +158,14 @@ function DirectorioCentroInnovacion() {
             "web": "https://www.darient.com",
             "address": "Innova 104, Ofic. 3B"
         },
-
+        {
+            "name": "Digital Media LAB",
+            "description": `Estrategias digitales corporativas, investigación, desarrollo e innovación en tecnología, web, social media y transformación digital.`,
+            "phone": "+507 6525-5454",
+            "email": "info@digitalmedialab.tv",
+            "web": "https://www.digitalmedialab.tv/",
+            "address": "Innova 109"
+        },
         {
             "name": "EDUTEK",
             "description": `Soluciones en Tecnología Educativas, STEM y 
